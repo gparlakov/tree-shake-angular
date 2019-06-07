@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'tapp-one-lazy',
+  selector: 'tapp-lazy',
   template: `
     <p>
       one-lazy works!
@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: []
 })
-export class OneLazyComponent implements OnInit {
+export class LazyComponent implements OnInit {
 
   constructor() { }
 
