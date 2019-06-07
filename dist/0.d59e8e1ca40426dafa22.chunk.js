@@ -4,12 +4,12 @@ webpackJsonp([0], {
     Object.defineProperty(l, "__esModule", { value: !0 });
     var t = u("WT6e"),
       o = function() {},
-      r = (function() {
+      e = (function() {
         function n() {}
         return (n.prototype.ngOnInit = function() {}), n;
       })(),
-      e = t.W({ encapsulation: 2, styles: [], data: {} });
-    function a(n) {
+      r = t.W({ encapsulation: 2, styles: [], data: {} });
+    function i(n) {
       return t._11(
         0,
         [
@@ -23,7 +23,7 @@ webpackJsonp([0], {
         null
       );
     }
-    var i = (function() {
+    var a = (function() {
         function n() {}
         return (n.prototype.ngOnInit = function() {}), n;
       })(),
@@ -38,8 +38,8 @@ webpackJsonp([0], {
           (n()(), t._10(-1, null, ["\n      one-lazy works!\n    "])),
           (n()(), t._10(-1, null, ["\n    "])),
           (n()(),
-          t.Y(4, 0, null, null, 1, "tapp-two", [], null, null, null, a, e)),
-          t.X(5, 114688, null, 0, r, [], null, null),
+          t.Y(4, 0, null, null, 1, "tapp-two", [], null, null, null, i, r)),
+          t.X(5, 114688, null, 0, e, [], null, null),
           (n()(), t._10(-1, null, ["\n  "]))
         ],
         function(n, l) {
@@ -50,7 +50,7 @@ webpackJsonp([0], {
     }
     var f = t.U(
         "tapp-lazy",
-        i,
+        a,
         function(n) {
           return t._11(
             0,
@@ -70,7 +70,7 @@ webpackJsonp([0], {
                 _,
                 c
               )),
-              t.X(1, 114688, null, 0, i, [], null, null)
+              t.X(1, 114688, null, 0, a, [], null, null)
             ],
             function(n, l) {
               n(l, 1, 0);
@@ -83,24 +83,32 @@ webpackJsonp([0], {
         []
       ),
       p = u("Xjw4"),
-      s = u("fAE3"),
-      y = u("bfOx");
+      s = function() {
+        this.name = "Service";
+      },
+      y = function() {
+        this.name = "Another Service";
+      },
+      v = u("fAE3"),
+      w = u("bfOx");
     u.d(l, "LazyModuleNgFactory", function() {
-      return w;
+      return d;
     });
-    var w = t.V(o, [], function(n) {
+    var d = t.V(o, [], function(n) {
       return t._4([
         t._5(512, t.j, t.S, [[8, [f]], [3, t.j], t.u]),
         t._5(4608, p.i, p.h, [t.r, [2, p.m]]),
+        t._5(4608, s, s, []),
+        t._5(4608, y, y, []),
         t._5(512, p.b, p.b, []),
-        t._5(512, s.a, s.a, []),
-        t._5(512, y.l, y.l, [[2, y.q], [2, y.k]]),
+        t._5(512, v.a, v.a, []),
+        t._5(512, w.l, w.l, [[2, w.q], [2, w.k]]),
         t._5(512, o, o, []),
         t._5(
           1024,
-          y.i,
+          w.i,
           function() {
-            return [[{ path: "", component: i }]];
+            return [[{ path: "", component: a }]];
           },
           []
         )
